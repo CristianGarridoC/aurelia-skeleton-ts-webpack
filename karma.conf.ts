@@ -1,4 +1,3 @@
-import { AureliaPlugin } from "aurelia-webpack-plugin";
 import * as karma from "karma";
 import * as path from "path";
 import * as webpack from "webpack";

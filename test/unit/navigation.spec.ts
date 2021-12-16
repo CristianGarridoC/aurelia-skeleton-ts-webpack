@@ -1,7 +1,7 @@
 import { bootstrap } from "aurelia-bootstrapper";
 import { ComponentTester } from "aurelia-testing";
 
-describe("the navigation view", () => {
+xdescribe("the navigation view", () => {
   let component: ComponentTester;
 
   beforeEach(() => {

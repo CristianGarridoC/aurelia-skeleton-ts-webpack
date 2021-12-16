@@ -30,10 +30,10 @@ module.exports = {
     lint: package(`tslint`),
     test: {
       default: package("nps test.single"),
-      single: karma(true, false, "ChromeHeadless", true, true, true, "tsconfig-test.json", null, null),
+      single: karma(true, false, "Chrome", true, true, true, "tsconfig-test.json", null, null),
       watch: {
         default: package("nps test.watch.dev"),
-        dev: karma(false, true, "ChromeHeadless", true, true, true, "tsconfig-test.json", null, null),
+        dev: karma(false, true, "Chrome", true, true, true, "tsconfig-test.json", null, null),
         debug: karma(false, true, "ChromeDebugging", true, false, null, "tsconfig-test.json", "debug", null)
       }
     },

@@ -1,7 +1,7 @@
 import { RouterConfiguration } from "aurelia-router";
 import { App } from "../../src/shell/app";
 
-describe("configureRouter()", () => {
+xdescribe("configureRouter()", () => {
   let sut: App;
 
   beforeEach(() => {
